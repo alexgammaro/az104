@@ -1,10 +1,9 @@
 # Guia de estudos para o exame de certificação da Microsoft Azure Administrator (AZ-104)
 
-
 ## Máquinas Virtuais
 ### 🧱 1. Planejamento e Pré-requisitos
-Escolha da imagem da VM: Windows, Linux ou customizada, disponível no Azure Marketplace ou como VHD.
-Tamanho da VM: Baseado em CPU, RAM, IOPS e throughput (séries D, E, M, etc.).
+*Escolha da imagem da VM: Windows, Linux ou customizada, disponível no Azure Marketplace ou como VHD.
+*Tamanho da VM: Baseado em CPU, RAM, IOPS e throughput (séries D, E, M, etc.).
 Localização: Selecionar Região/Availability Zone (AZ) apropriadas.
 Serviços de suporte:
 Rede Virtual (VNet) e subnets designados.
