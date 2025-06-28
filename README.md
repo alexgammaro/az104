@@ -6,12 +6,12 @@
 - Tamanho da VM: Baseado em CPU, RAM, IOPS e throughput (séries D, E, M, etc.).
 - Localização: Selecionar Região/Availability Zone (AZ) apropriadas.
 - Serviços de suporte:
-    Rede Virtual (VNet) e subnets designados.
-    Grupo de Segurança de Rede (NSG) ou Application Security Groups (ASG).
-    Regras de roteamento e NSG aplicados.
+  > Rede Virtual (VNet) e subnets designados.
+  > Grupo de Segurança de Rede (NSG) ou Application Security Groups (ASG).
+  > Regras de roteamento e NSG aplicados.
 - Storage:
-    Discos gerenciados (Premium SSD, Standard SSD/HDD) anexados como dados ou SO.
-    Considerar Ultra Disk ou discos replicados para cenários críticos.
+  > Discos gerenciados (Premium SSD, Standard SSD/HDD) anexados como dados ou SO.
+  > Considerar Ultra Disk ou discos replicados para cenários críticos.
 
 ### ⚙️ 2. Criação de VM
 2.1 Via Portal Azure
