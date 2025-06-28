@@ -1,4 +1,4 @@
-# Guia de estudos para o exame de certificação da Microsoft Azure Administrator (AZ-104)
+# Guia de estudos para o exame de certificação Microsoft Azure Administrator (AZ-104)
 
 ## Máquinas Virtuais
 ### 🧱 1. Planejamento e Pré-requisitos
