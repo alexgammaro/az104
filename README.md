@@ -5,28 +5,20 @@
 - Escolha da imagem da VM: Windows, Linux ou customizada, disponível no Azure Marketplace ou como VHD.
 - Tamanho da VM: Baseado em CPU, RAM, IOPS e throughput (séries D, E, M, etc.).
 - Localização: Selecionar Região/Availability Zone (AZ) apropriadas.
-- Serviços de suporte:
-  > Rede Virtual (VNet) e subnets designados.
-  > Grupo de Segurança de Rede (NSG) ou Application Security Groups (ASG).
-  > Regras de roteamento e NSG aplicados.
-- Storage:
-  > Discos gerenciados (Premium SSD, Standard SSD/HDD) anexados como dados ou SO.
-  > Considerar Ultra Disk ou discos replicados para cenários críticos.
+- Serviços de suporte: Rede Virtual (VNet) e subnets designados; Grupo de Segurança de Rede (NSG) ou Application Security Groups (ASG) ; Regras de roteamento e NSG aplicados.
+- Storage: Discos gerenciados (Premium SSD, Standard SSD/HDD) anexados como dados ou SO; Considerar Ultra Disk ou discos replicados para cenários críticos.
 
 ### ⚙️ 2. Criação de VM
-2.1 Via Portal Azure
-Escolher Resource Group, Região e imagem.
+#### 2.1 Via Portal Azure
+- Escolher Resource Group, Região e imagem.
+- Selecionar tamanho e configurar admin user (senha ou SSH).
+- Configurar discos e network (VNet, subnet, IP público/privado, NSG, ASG).
+- Revisar e criar vm.
 
-Selecionar tamanho e configurar admin user (senha ou SSH).
-
-Configurar discos e network (VNet, subnet, IP público/privado, NSG, ASG).
-
-Revisar e criar vm.
-
-2.2 Via CLI/Powershell/ARM Template/Bicep/Terraform
+#### 2.2 Via CLI/Powershell/ARM Template/Bicep/Terraform
 Uso de az vm create, scripts ARM ou Bicep, ou definição de Terraform.
 
-2.3 Extensões e scripts de inicialização
+#### 2.3 Extensões e scripts de inicialização
 Extensões: Custom Script, Azure VM Agent, Azure Policy, para pós-criação (ex.: instalar software, configurações de segurança, definição de backup).
 
 ### 🧩 3. Configuração Pós-Criação
